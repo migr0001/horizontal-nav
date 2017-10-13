@@ -4,8 +4,60 @@ html {
   background-color: #dbd6cf;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Bevan", sans-serif;
+}
+
+div {
   background-color: #79756f;
   padding: .6em;
-  text-color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: .5em;
+}
+
+ul {
+  display: inline-block;
+}
+
+.introduction {
+  background-color: #713837;
+  padding: .5em;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.terrestrial-planets {
+  background-color: #713837;
+  padding: .5em .75em;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.mars {
+  background-color: #713837;
+  padding: .5em;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.venus {
+  background-color: #713837;
+  padding: .5em;
+  text-align: center;
+  display: inline-block;
+  border-radius: 4px;
 }
