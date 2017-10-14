@@ -2,62 +2,76 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #dbd6cf;
+  border-top: .3em solid #595652;
+  border-bottom: .3em solid #595652;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   text-align: center;
   color: #fff;
-  font-family: "Bevan", sans-serif;
+  font-family: 'Bevan', sans-serif;
 }
 
 div {
   background-color: #79756f;
-  padding: .6em;
+  display: block;
+  padding: .3em;
+  text-align: center;
+  margin: 0 auto;
 }
 
 a {
   color: #fff;
   text-decoration: none;
   font-family: sans-serif;
-  padding: .5em;
-}
-
-ul {
-  display: inline-block;
+  list-style-type: none;
 }
 
 .introduction {
   background-color: #713837;
-  padding: .5em;
+  padding: .6em;
   text-align: center;
   display: inline-block;
   border-radius: 4px;
+  margin-bottom: .3em;
 }
 
 .terrestrial-planets {
   background-color: #713837;
-  padding: .5em .75em;
+  padding: .6em;
   text-align: center;
   display: inline-block;
   border-radius: 4px;
+  margin-bottom: .3rem;
 }
 
 .mars {
   background-color: #713837;
-  padding: .5em;
+  padding: .6em;
   text-align: center;
   display: inline-block;
   border-radius: 4px;
+  margin-bottom: .3rem;
 }
 
 .venus {
   background-color: #713837;
-  padding: .5em;
+  padding: .6em;
   text-align: center;
   display: inline-block;
   border-radius: 4px;
+  margin-bottom: .3rem;
+}
+
+.planets a:hover {
+  background-color: #f33;
+  color: #fff;
 }
